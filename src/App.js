@@ -5,12 +5,12 @@ import Introduce from "./components/Introduce/Introduce";
 import Loading from "./components/Loading/Loading";
 import MySkill from "./components/MySkill/MySkill";
 import AboutMe from "./components/MyStory/AboutMe";
-import MyStory from "./components/MyStory/AboutMe";
+
 const App = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false);
+      setLoading(true);
     }, 3000);
   }, []);
 

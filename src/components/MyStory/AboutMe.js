@@ -7,10 +7,10 @@ const AboutMe = () => {
         <h2 className="text-white text-5xl">About Me</h2>
         <p className="text-xl">
           I was born in 1999 at HCM city. Like everyone, I started my college
-          life at 18 in University of Technology and Education, but in this
-          chapter of my life, I met some life incident, in that time, I needed
-          to leave school to stable my life, so I dropped out of school about
-          1,5 year.
+          life at 18 in University of Technology and Education. In this chapter
+          of my life, I met some life incident, in that time, I had to leave
+          school to stable my life, so I dropped out of school about one year
+          and a half.
           <img
             src="https://www.kindpng.com/picc/m/436-4360621_transparent-pencil-and-paper-png-illustration-png-download.png"
             alt=""

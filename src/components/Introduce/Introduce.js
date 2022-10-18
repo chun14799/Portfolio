@@ -22,7 +22,7 @@ const Introduce = () => {
               <div className="my-10 text-lg">
                 <p className="my-4">Welcome to my portfolio !</p>{" "}
                 <p className="mb-5">
-                  I enjoyed building a front-end of website, where I can see the
+                  I enjoy building a front-end of website, where I can see the
                   change of the display, <br />
                   it's make me excited. Beside that, I also love playing with
                   dog.{" "}
