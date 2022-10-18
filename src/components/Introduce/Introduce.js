@@ -57,7 +57,7 @@ const Introduce = () => {
             <div className="resume-btn w-fit">
               <a
                 href="../../images/CV_HoangLong.pdf"
-                download="hoanglong_resume.pdf"
+                download="CV_HoangLong.pdf"
               >
                 <button className="resume-button px-5 py-2 text-center uppercase relative   font-normal select-none rounded-xl">
                   Download Resume
