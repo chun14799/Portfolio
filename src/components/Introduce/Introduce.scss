@@ -1,0 +1,83 @@
+.introduce {
+  color: white !important;
+  .introduce_content {
+    h2 {
+      .nameText {
+        background-image: linear-gradient(to right top, #6a5af9, #d66efd);
+        color: transparent !important;
+        line-height: 1.5 !important;
+        -webkit-background-clip: text;
+      }
+    }
+    .bio_description {
+      .title-content {
+        font-size: 30px;
+        line-height: 40px;
+        .title-content__container {
+          height: 40px;
+          .hidden {
+            display: none;
+          }
+          ul {
+            animation-name: title-change;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+          }
+          .blinker {
+            color: #8affad;
+            margin: 0 0.6rem;
+            font-size: 34px;
+            animation-name: title-opacity;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+          }
+        }
+      }
+    }
+    .resume-btn {
+      .resume-button {
+        border: 3px solid #fff;
+        overflow: hidden;
+        transition: 0.3s;
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 0%;
+          background: #fff;
+          z-index: -1;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+          transition: all 0.4s cubic-bezier(0.24, 0.89, 0.68, -0.37);
+        }
+        &:hover {
+          color: #000;
+          font-weight: 400;
+          &::after {
+            height: 600%;
+            transform: translate(-50%, -50%) rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+  .introduce_img {
+    img {
+      width: 435;
+      height: 390px;
+      border-radius: 5px;
+    }
+    .anime-shake {
+      animation: shake 1.5s linear infinite alternate;
+    }
+    .avatar-img {
+      outline: 1px solid #fff;
+      outline-offset: calc(-10px);
+      box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    }
+  }
+}
