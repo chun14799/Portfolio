@@ -12,7 +12,7 @@ const Introduce = () => {
     <div className="container">
       <div className="relative w-full text-3xl px-8 sm:px-12 lg:px-5 xl:px-0 mb-10 md:mb-16 lg:mb-20 mt-8">
         <div className="introduce flex items-center justify-between">
-          <div className="introduce_content ml-2">
+          <div className="introduce_content ml-2  max-w-[800px] text-white">
             <h2 className="text-7xl text-white">
               Hi, <span>{ImText}</span>{" "}
               <span className="nameText">{nameText}</span>
