@@ -7,10 +7,10 @@ import MySkill from "./components/MySkill/MySkill";
 import AboutMe from "./components/MyStory/AboutMe";
 
 const App = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setLoading(true);
+      setLoading(false);
     }, 3000);
   }, []);
 

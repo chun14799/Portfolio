@@ -22,10 +22,15 @@ const Introduce = () => {
               <div className="my-10 text-lg">
                 <p className="my-4">Welcome to my portfolio !</p>{" "}
                 <p className="mb-5">
-                  I enjoy building a front-end of website, where I can see the
-                  change of the display, <br />
-                  it's make me excited. Beside that, I also love playing with
-                  dog.{" "}
+                  Since i was young, i have always curious about how to change
+                  the display on websites, apps and so on. Thats why i chose to
+                  learn to become a front end developer. I enjoy doing this
+                  work, people said you have to love something to do it best,
+                  and thats just how i feel when i coding. I consider myself as
+                  an honest, friendly and compassionate in work. When i have
+                  free time i love playing with my dog or reading something
+                  related to my work cause its always good to learn sth new
+                  everyday.
                 </p>
               </div>
               <div className="mt-5"></div>
