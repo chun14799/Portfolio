@@ -1,6 +1,7 @@
 import React from "react";
 import "./Introduce.scss";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import Avatar from "../../images/158796248_1744191735754372_4285603490763316376_n.jpg";
 const Introduce = () => {
   const [ImText] = useTypewriter({
     words: ["I'm"],
@@ -73,7 +74,7 @@ const Introduce = () => {
           <div className="introduce_img relative mb-10 sm:mb-0">
             <div className="w-20 h-20 rounded-full absolute bg-fourth bg-opacity-70 scale-[2] z-[-1] right-10 top-10 blur-3xl pointer-events-none"></div>
             <img
-              src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.6435-9/158796248_1744191735754372_4285603490763316376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=RSeVOOVG6NMAX8BRqfD&_nc_ht=scontent.fsgn5-2.fna&oh=00_AT9jeuTFQli1H5QzQ_QQfzzwBYOYWrtO6XuSbvQG7rPaBA&oe=635A3BE0"
+              src={Avatar}
               alt="My Avatar"
               className="anime-shake avatar-img"
             />
